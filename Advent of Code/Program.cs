@@ -122,7 +122,7 @@ namespace Advent_of_Code
                 int counter = 0;
                 for(int i3 = 0; i3<splitInput[i1][1].Length; i3++)
                 {
-                    if (splitInput[i1][1][i3] != letter)
+                    if (splitInput[i1][1][i3] == letter)
                     {
                         counter++;
                     }
